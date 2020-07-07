@@ -79,7 +79,7 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 				--tooltip:AddLine(row["value"])
 				--tooltip:AddLine(row["note"])
 			end
-			tooltip:AddLine("|cFF00FF00------------------------------------------|r")
+			tooltip:AddLine("|cFF00FF00---------------------------------------------|r")
 			tooltip:AddLine(" ")
 		end
 	end
