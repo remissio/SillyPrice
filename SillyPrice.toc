@@ -1,0 +1,11 @@
+## Interface: 11304
+## Title: SillyPrice
+## Author: Skanda
+## Version: 0.1
+## Notes: SillyWalks Item Price
+
+#database
+db\spDkp.lua
+
+# main
+SillyPrice.lua
