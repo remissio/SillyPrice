@@ -1,5 +1,585 @@
 spDkp = {}
 spDkp  = {
+  [21702]={
+    [1]={
+      ["name"]="Amulet of Foul Warding",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21608]={
+    [1]={
+      ["name"]="Amulet of Vek'nilash",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21650]={
+    [1]={
+      ["name"]="Ancient Qiraji Ripper",["value"]="200",["note"]="",["role"]="Melee DPS"
+      }
+    },
+  [21690]={
+    [1]={
+      ["name"]="Angelista's Charm",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21695]={
+    [1]={
+      ["name"]="Angelista's Touch",["value"]="200",["note"]="",["role"]="Tanks"
+      }
+    },
+  [21837]={
+    [1]={
+      ["name"]="Anubisath Warhammer",["value"]="200",["note"]="",["role"]="physical DPS"
+      }
+    },
+  [21670]={
+    [1]={
+      ["name"]="Badge of the Swarmguard",["value"]="200",["note"]="",["role"]="Schurken, Krieger DPS"
+      }
+    },
+  [21635]={
+    [1]={
+      ["name"]="Barb of the Sand Reaver",["value"]="200",["note"]="",["role"]="Hunter, Ferals"
+      }
+    },
+  [21664]={
+    [1]={
+      ["name"]="Barbed Choker",["value"]="200",["note"]="",["role"]="physical DPS"
+      }
+    },
+  [21699]={
+    [1]={
+      ["name"]="Barrage Shoulders",["value"]="200",["note"]="",["role"]="Hunter, Enhancer"
+      }
+    },
+  [21708]={
+    [1]={
+      ["name"]="Beetle Scaled Wristguards",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21586]={
+    [1]={
+      ["name"]="Belt of Never-ending Agony",["value"]="200",["note"]="",["role"]="Schurken"
+      }
+    },
+  [21682]={
+    [1]={
+      ["name"]="Bile-Covered Gauntlets",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21600]={
+    [1]={
+      ["name"]="Boots of Epiphany",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21688]={
+    [1]={
+      ["name"]="Boots of the Fallen Hero",["value"]="200",["note"]="",["role"]="Krieger DPS"
+      }
+    },
+  [21705]={
+    [1]={
+      ["name"]="Boots of the Fallen Prophet",["value"]="200",["note"]="",["role"]="Schamanen"
+      }
+    },
+  [21704]={
+    [1]={
+      ["name"]="Boots of the Redeemed Prophecy",["value"]="200",["note"]="",["role"]="Gast-Paladine"
+      }
+    },
+  [21706]={
+    [1]={
+      ["name"]="Boots of the Unwavering Will",["value"]="200",["note"]="",["role"]="Krieger"
+      }
+    },
+  [21604]={
+    [1]={
+      ["name"]="Bracelets of Royal Redemption",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21814]={
+    [1]={
+      ["name"]="Breastplate of Annihilation",["value"]="200",["note"]="",["role"]="Krieger DPS"
+      }
+    },
+  [21611]={
+    [1]={
+      ["name"]="Burrower Bracers",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21697]={
+    [1]={
+      ["name"]="Cape of the Trinity",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21583]={
+    [1]={
+      ["name"]="Cloak of Clarity",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21701]={
+    [1]={
+      ["name"]="Cloak of Concentrated Hatred",["value"]="200",["note"]="",["role"]="1. Enhancer, 2. Krieger DPS/Schurken"
+      }
+    },
+  [22731]={
+    [1]={
+      ["name"]="Cloak of the Devoured",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21621]={
+    [1]={
+      ["name"]="Cloak of the Golden Hive",["value"]="200",["note"]="",["role"]="Tanks"
+      }
+    },
+  [21627]={
+    [1]={
+      ["name"]="Cloak of Untold Secrets",["value"]="200",["note"]="",["role"]="Warlock (twintank)"
+      }
+    },
+  [21669]={
+    [1]={
+      ["name"]="Creeping Vine Helm",["value"]="200",["note"]="",["role"]="Druiden"
+      }
+    },
+  [21134]={
+    [1]={
+      ["name"]="Dark Edge of Insanity",["value"]="200",["note"]="",["role"]="Krieger, Schamanen"
+      }
+    },
+  [21585]={
+    [1]={
+      ["name"]="Dark Storm Gauntlets",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21126]={
+    [1]={
+      ["name"]="Death's Sting",["value"]="200",["note"]="",["role"]="1. Dolchschurken, 2. Tanks"
+      }
+    },
+  [21615]={
+    [1]={
+      ["name"]="Don Rigoberto's Lost Hat",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [22730]={
+    [1]={
+      ["name"]="Eyestalk Waist Cord",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21647]={
+    [1]={
+      ["name"]="Fetish of the Sand Reaver",["value"]="200",["note"]="Belgier, ganz klar Belgier!",["role"]="1. Belgier, 2. ffa"
+      }
+    },
+  [21581]={
+    [1]={
+      ["name"]="Gauntlets of Annihilation",["value"]="200",["note"]="",["role"]="Krieger DPS"
+      }
+    },
+  [21624]={
+    [1]={
+      ["name"]="Gauntlets of Kalimdor",["value"]="200",["note"]="",["role"]="Schamanen"
+      }
+    },
+  [21674]={
+    [1]={
+      ["name"]="Gauntlets of Steadfast Determination",["value"]="200",["note"]="",["role"]="Krieger"
+      }
+    },
+  [21838]={
+    [1]={
+      ["name"]="Garb of Royal Ascension",["value"]="200",["note"]="",["role"]="Warlock (twintank)"
+      }
+    },
+  [21689]={
+    [1]={
+      ["name"]="Gloves of Ebru",["value"]="200",["note"]="",["role"]="Druiden, Schamanen"
+      }
+    },
+  [21672]={
+    [1]={
+      ["name"]="Gloves of Enforcement",["value"]="200",["note"]="",["role"]="Schurke, Ferals"
+      }
+    },
+  [21605]={
+    [1]={
+      ["name"]="Gloves of the Hidden Temple",["value"]="200",["note"]="",["role"]="Ferals"
+      }
+    },
+  [21888]={
+    [1]={
+      ["name"]="Gloves of the Immortal",["value"]="200",["note"]="",["role"]="Warlock (twintank)"
+      }
+    },
+  [21619]={
+    [1]={
+      ["name"]="Gloves of the Messiah",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21607]={
+    [1]={
+      ["name"]="Grasp of the Fallen Emperor",["value"]="200",["note"]="",["role"]="Schamanen"
+      }
+    },
+  [21582]={
+    [1]={
+      ["name"]="Grasp of the Old God",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21693]={
+    [1]={
+      ["name"]="Guise of the Devourer",["value"]="200",["note"]="",["role"]="Ferals"
+      }
+    },
+  [21703]={
+    [1]={
+      ["name"]="Hammer of Ji'zhi",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21618]={
+    [1]={
+      ["name"]="Hive Defiler Wristguards",["value"]="200",["note"]="",["role"]="Krieger DPS"
+      }
+    },
+  [21645]={
+    [1]={
+      ["name"]="Hive Tunneler's Boots",["value"]="200",["note"]="",["role"]="Ferals"
+      }
+    },
+  [21616]={
+    [1]={
+      ["name"]="Huhuran's Stinger",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [22399]={
+    [1]={
+      ["name"]="Idol of Health",["value"]="200",["note"]="",["role"]="Druidenheiler"
+      }
+    },
+  [23570]={
+    [1]={
+      ["name"]="Jom Gabbar",["value"]="200",["note"]="",["role"]="physical DPS"
+      }
+    },
+  [21679]={
+    [1]={
+      ["name"]="Kalimdor's Revenge",["value"]="200",["note"]="",["role"]="Krieger"
+      }
+    },
+  [23557]={
+    [1]={
+      ["name"]="Larvae of the Great Worm",["value"]="200",["note"]="",["role"]="Hunter"
+      }
+    },
+  [21698]={
+    [1]={
+      ["name"]="Leggings of Immersion",["value"]="200",["note"]="",["role"]="Druiden, Schamanen"
+      }
+    },
+  [21676]={
+    [1]={
+      ["name"]="Leggings of the Festering Swarm",["value"]="200",["note"]="",["role"]="Magier"
+      }
+    },
+  [21686]={
+    [1]={
+      ["name"]="Mantle of Phrenic Power",["value"]="200",["note"]="",["role"]="Magier"
+      }
+    },
+  [21684]={
+    [1]={
+      ["name"]="Mantle of the Desert's Fury",["value"]="200",["note"]="",["role"]="Schamanen"
+      }
+    },
+  [21665]={
+    [1]={
+      ["name"]="Mantle of Wicked Revenge",["value"]="200",["note"]="",["role"]="1. Ferals, 2. Enhancer"
+      }
+    },
+  [22732]={
+    [1]={
+      ["name"]="Mark of C'Thun",["value"]="200",["note"]="",["role"]="Tank"
+      }
+    },
+  [21678]={
+    [1]={
+      ["name"]="Necklace of Purity",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21856]={
+    [1]={
+      ["name"]="Neretzek, The Blood Drinker",["value"]="200",["note"]="",["role"]="Krieger, Schamanen"
+      }
+    },
+  [21691]={
+    [1]={
+      ["name"]="Ooze-ridden Gauntlets",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21639]={
+    [1]={
+      ["name"]="Pauldrons of the Unrelenting",["value"]="200",["note"]="",["role"]="Krieger"
+      }
+    },
+  [21700]={
+    [1]={
+      ["name"]="Pendant of the Qiraji Guardian",["value"]="200",["note"]="",["role"]="Tanks"
+      }
+    },
+  [21685]={
+    [1]={
+      ["name"]="Petrified Scarab",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21602]={
+    [1]={
+      ["name"]="Qiraji Execution Bracers",["value"]="200",["note"]="",["role"]="1. Ferals, 2. Melee DPS"
+      }
+    },
+  [21648]={
+    [1]={
+      ["name"]="Recomposed Boots",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21609]={
+    [1]={
+      ["name"]="Regenerating Belt of Vek'nilash",["value"]="200",["note"]="",["role"]="Druiden, Schamanen"
+      }
+    },
+  [21601]={
+    [1]={
+      ["name"]="Ring of Emperor Vek'lor",["value"]="200",["note"]="",["role"]="Ferals"
+      }
+    },
+  [21707]={
+    [1]={
+      ["name"]="Ring of Swarming Thought",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21681]={
+    [1]={
+      ["name"]="Ring of the Devoured",["value"]="200",["note"]="",["role"]="Druiden, Schamanen"
+      }
+    },
+  [21596]={
+    [1]={
+      ["name"]="Ring of the Godslayer",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21620]={
+    [1]={
+      ["name"]="Ring of the Martyr",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21677]={
+    [1]={
+      ["name"]="Ring of the Qiraji Fury",["value"]="200",["note"]="",["role"]="physcal DPS"
+      }
+    },
+  [21836]={
+    [1]={
+      ["name"]="Ritssyn's Ring of Chaos",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21671]={
+    [1]={
+      ["name"]="Robes of the Battleguard",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21663]={
+    [1]={
+      ["name"]="Robes of the Guardian Saint",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21696]={
+    [1]={
+      ["name"]="Robes of the Triumvirate",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21598]={
+    [1]={
+      ["name"]="Royal Qiraji Belt",["value"]="200",["note"]="",["role"]="Tanks"
+      }
+    },
+  [21597]={
+    [1]={
+      ["name"]="Royal Scepter of Vek'lor",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21666]={
+    [1]={
+      ["name"]="Sartura's Might",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21668]={
+    [1]={
+      ["name"]="Scaled Leggings of Qiraji Fury",["value"]="200",["note"]="",["role"]="Schamanen"
+      }
+    },
+  [21651]={
+    [1]={
+      ["name"]="Scaled Sand Reaver Leggings",["value"]="200",["note"]="",["role"]="Enhancer"
+      }
+    },
+  [21625]={
+    [1]={
+      ["name"]="Scarab Brooch",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21839]={
+    [1]={
+      ["name"]="Scepter of the False Prophet",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [21891]={
+    [1]={
+      ["name"]="Shard of the Fallen Star",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21622]={
+    [1]={
+      ["name"]="Sharpened Silithid Femur",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21652]={
+    [1]={
+      ["name"]="Silithid Carapace Chestguard",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21673]={
+    [1]={
+      ["name"]="Silithid Claw",["value"]="200",["note"]="",["role"]="Hunter"
+      }
+    },
+  [21626]={
+    [1]={
+      ["name"]="Slime-coated Leggings",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21128]={
+    [1]={
+      ["name"]="Staff of the Qiraji Prophets",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21694]={
+    [1]={
+      ["name"]="Ternary Mantle",["value"]="200",["note"]="",["role"]="Heiler"
+      }
+    },
+  [23558]={
+    [1]={
+      ["name"]="The Burrower's Shell",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21675]={
+    [1]={
+      ["name"]="Thick Qirajihide Belt",["value"]="200",["note"]="",["role"]="Ferals"
+      }
+    },
+  [22396]={
+    [1]={
+      ["name"]="Totem of Life",["value"]="200",["note"]="",["role"]="Heilschamanen"
+      }
+    },
+  [21692]={
+    [1]={
+      ["name"]="Triad Girdle",["value"]="200",["note"]="",["role"]="Krieger"
+      }
+    },
+  [21687]={
+    [1]={
+      ["name"]="Ukko's Ring of Darkness",["value"]="200",["note"]="",["role"]="Warlock (twintank)"
+      }
+    },
+  [21579]={
+    [1]={
+      ["name"]="Vanquished Tentacle of C'Thun",["value"]="200",["note"]="",["role"]="ffa"
+      }
+    },
+  [21599]={
+    [1]={
+      ["name"]="Vek'lor's Gloves of Devastation",["value"]="200",["note"]="",["role"]="Enhancer"
+      }
+    },
+  [21680]={
+    [1]={
+      ["name"]="Vest of Swift Execution",["value"]="200",["note"]="",["role"]="Ferals, Enhancer"
+      }
+    },
+  [21603]={
+    [1]={
+      ["name"]="Wand of Qiraji Nobility",["value"]="200",["note"]="",["role"]="Caster DPS"
+      }
+    },
+  [21617]={
+    [1]={
+      ["name"]="Wasphide Gauntlets",["value"]="200",["note"]="",["role"]="Schamane"
+      }
+    },
+  [21610]={
+    [1]={
+      ["name"]="Wormscale Blocker",["value"]="200",["note"]="",["role"]="Resigear"
+      }
+    },
+  [21221]={
+    [1]={
+      ["name"]="Eye of C'Thun",["value"]="111",["note"]="",["role"]="Heiler, Caster"
+      }
+    },
+  [20928]={
+    [1]={
+      ["name"]="Qiraji Bindings of Command",["value"]="111",["note"]="",["role"]="Schurken"
+      }
+    },
+  [20932]={
+    [1]={
+      ["name"]="Qiraji Bindings of Dominance",["value"]="111",["note"]="",["role"]="ffa"
+      }
+    },
+  [20930]={
+    [1]={
+      ["name"]="Vek'lor's Diadem",["value"]="111",["note"]="",["role"]="Schurken"
+      }
+    },
+  [20926]={
+    [1]={
+      ["name"]="Vek'nilash's Circlet",["value"]="111",["note"]="",["role"]="ffa"
+      }
+    },
+  [20927]={
+    [1]={
+      ["name"]="Ouro's Intact Hide",["value"]="111",["note"]="",["role"]="Schurken"
+      }
+    },
+  [20931]={
+    [1]={
+      ["name"]="Skin of the Great Sandworm",["value"]="111",["note"]="",["role"]="ffa"
+      }
+    },
+  [20929]={
+    [1]={
+      ["name"]="Carapace of the Old God",["value"]="111",["note"]="",["role"]="Schurken"
+      }
+    },
+  [20933]={
+    [1]={
+      ["name"]="Husk of the Old God",["value"]="111",["note"]="",["role"]="ffa"
+      }
+    },
+  [21232]={
+    [1]={
+      ["name"]="Imperial Qiraji Armaments",["value"]="111",["note"]="Tanks ohne den BWL Schild!",["role"]="1. Tanks, 2. ffa"
+      }
+    },
+  [21237]={
+    [1]={
+      ["name"]="Imperial Qiraji Regalia",["value"]="111",["note"]="",["role"]="ffa"
+      }
+    },
+  [19003]={
+    [1]={
+      ["name"]="Head of Nefarian",["value"]="100",["note"]="",["role"]="1. physical DPS, 2. ffa"
+      }
+    },
   [19439]={
     [1]={
       ["name"]="Interlaced Shadow Jerkin",["value"]="100",["note"]="",["role"]="???"
@@ -17,7 +597,7 @@ spDkp  = {
     },
   [19390]={
     [1]={
-      ["name"]="Taut Dragonhide Gloves",["value"]="100",["note"]="",["role"]="Druide / Schamanen"
+      ["name"]="Taut Dragonhide Gloves",["value"]="100",["note"]="",["role"]="Druiden, Schamanen"
       }
     },
   [19386]={
@@ -62,17 +642,17 @@ spDkp  = {
     },    
  [18423]={
     [1]={
-      ["name"]="Head of Onyxia",["value"]="0",["note"]="",["role"]="1. Tanks, 2. Melee DPS, 3. Hunter"
+      ["name"]="Head of Onyxia",["value"]="0",["note"]="",["role"]="1. physical DPS, 2. Rest"
       }
     },   
  [18563]={
     [1]={
-      ["name"]="Bindings of the Windseeker",["value"]="0",["note"]="Geht an Shivers!",["role"]="Tanks"
+      ["name"]="Bindings of the Windseeker",["value"]="0",["note"]="Will einfach nicht droppen -.-",["role"]="Tanks"
       }
     },   
  [18564]={
     [1]={
-      ["name"]="Bindings of the Windseeker",["value"]="0",["note"]="Geht an Khar!",["role"]="Tanks"
+      ["name"]="Bindings of the Windseeker",["value"]="0",["note"]="",["role"]="Tanks"
       }
     },    
  [18815]={
@@ -467,12 +1047,12 @@ spDkp  = {
   },
   [19353]={
     [1]={
-      ["name"]="Drake Talon Cleaver",["value"]="100",["note"]="",["role"]="Krieger DPS / Enhancer"
+      ["name"]="Drake Talon Cleaver",["value"]="100",["note"]="",["role"]="Krieger DPS, Enhancer"
     }
   },
   [19357]={
     [1]={
-      ["name"]="Herald of Woe",["value"]="100",["note"]="",["role"]="Schamanen / Druiden"
+      ["name"]="Herald of Woe",["value"]="100",["note"]="",["role"]="Schamanen, Druiden"
     }
   },
   [19354]={
@@ -482,7 +1062,7 @@ spDkp  = {
   },
   [19358]={
     [1]={
-      ["name"]="Draconic Maul",["value"]="100",["note"]="",["role"]="Krieger DPS / Schamanen / Druiden"
+      ["name"]="Draconic Maul",["value"]="100",["note"]="",["role"]="Krieger DPS, Schamanen, Druiden"
     }
   },
   [16908]={
@@ -537,7 +1117,7 @@ spDkp  = {
   },
   [19377]={
     [1]={
-      ["name"]="Prestor's Talisman of Connivery",["value"]="100",["note"]="",["role"]="Schurken / Jäger"
+      ["name"]="Prestor's Talisman of Connivery",["value"]="100",["note"]="",["role"]="Schurken, Jäger"
     }
   },
   [16832]={
@@ -687,7 +1267,7 @@ spDkp  = {
   },
   [18810]={
     [1]={
-      ["name"]="Wild Growht Spaulders",["value"]="0",["note"]="",["role"]="Heildruiden / Heilschamanen"
+      ["name"]="Wild Growht Spaulders",["value"]="0",["note"]="",["role"]="Heildruiden, Heilschamanen"
     }
   },
   [18829]={
@@ -792,7 +1372,7 @@ spDkp  = {
   },
   [18803]={
     [1]={
-      ["name"]="Finkles Lava Dredger",["value"]="0",["note"]="",["role"]="Druiden / Schamanen"
+      ["name"]="Finkles Lava Dredger",["value"]="0",["note"]="",["role"]="Druiden, Schamanen"
     }
   },
   [19375]={
@@ -897,7 +1477,7 @@ spDkp  = {
   },
   [19347]={
     [1]={
-      ["name"]="Claw of Chromaggus",["value"]="100",["note"]="",["role"]="Heildruiden / Heilschamanen"
+      ["name"]="Claw of Chromaggus",["value"]="100",["note"]="",["role"]="Heildruiden, Heilschamanen"
     }
   },
   [19360]={

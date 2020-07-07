@@ -3,17 +3,26 @@ SillyPrice.items = {}
 SillyPrice.items = spDkp
 SillyPrice.frame = CreateFrame("Frame","ItemSillyPriceFrame")
 
+
 SillyPrice.frame:RegisterEvent("ADDON_LOADED")
 
+
 SillyPrice.frame:SetScript("OnEvent", function(self, event, arg1, ...)
+
+
 	--print(arg1)
+
     if event == "ADDON_LOADED" and arg1 == "SillyPrice" then
 		--print("SillyPrice")
     end
+
+
 end)
+
 
 local find = string.find
 local format = string.format
+
 
 local itemTypeIdWeapon        = 2
 local itemTypeIdArmor         = 4
@@ -22,6 +31,7 @@ local itemTypeIdMiscellaneous = 15
 local function GameTooltip_OnTooltipSetItem(tooltip)
 	local itemName, itemLink = tooltip:GetItem()
 	if not itemName or not itemLink then return; end
+	
 	local _, _, _, _, _, itemType, _, _, _, _, _, itemTypeId = GetItemInfo(itemLink)
 
 
@@ -58,9 +68,7 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 			local t = SillyPrice.items[itemId]
 			
 			tooltip:AddLine(" ")
-			tooltip:AddLine("|cFF00FF00------------------------------------------|r")
-			tooltip:AddLine("|cFF00FF00Silly Walks Lootliste|r")
-			tooltip:AddLine(" ")
+			tooltip:AddLine("|cFF00FF00---------- SillyWalks LootListe ----------|r")
 			
 			for p=1,table.getn(t) do
 				local row = t[p]
@@ -79,9 +87,8 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 				--tooltip:AddLine(row["value"])
 				--tooltip:AddLine(row["note"])
 			end
-			tooltip:AddLine("|cFF00FF00------------------------------------------|r")
-			tooltip:AddLine(" ")
-		end
+			
+		end		
 	end
 end
 
