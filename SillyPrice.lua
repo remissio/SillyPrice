@@ -24,19 +24,26 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 	then
 		return
 	end
-	
-	local _, _, _, _, _, itemType, _, _, _, _, _, itemTypeId = GetItemInfo(itemLink)
 
 	local _, itemId, enchantId, jewelId1, jewelId2, jewelId3, jewelId4, suffixId, uniqueId,
 		  linkLevel, specializationID, reforgeId, unknown1, unknown2 = strsplit(":", itemLink)
+	itemId = tonumber(itemId)
+
+	-- https://wow.gamepedia.com/API_GetItemInfo
+	local 	itemName, itemLink, itemRarity, itemLevel,
+			itemMinLevel, itemType, itemSubType, itemStackCount,
+			itemEquipLoc, itemIcon, itemSellPrice, itemClassID,
+			itemSubClassID, bindType, expacID, itemSetID,
+			isCraftingReagent = GetItemInfo(itemLink)
 
 	--print(itemType)
 	--print(itemId)
 
+	-- https://wow.gamepedia.com/ItemType
 	if
-		itemTypeId ~= LE_ITEM_CLASS_WEAPON and
-		itemTypeId ~= LE_ITEM_CLASS_ARMOR and
-		itemTypeId ~= LE_ITEM_CLASS_MISCELLANEOUS
+		itemClassID ~= LE_ITEM_CLASS_WEAPON and
+		itemClassID ~= LE_ITEM_CLASS_ARMOR and
+		itemClassID ~= LE_ITEM_CLASS_MISCELLANEOUS
 	then
 		return
 	end
@@ -47,8 +54,6 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 		--end
 	--end
 
-	itemId = tonumber(itemId)
-	
 	if SillyPrice.items == nil then
 		tooltip:AddLine("error-idiot-lol")
 	else
@@ -67,13 +72,10 @@ local function GameTooltip_OnTooltipSetItem(tooltip)
 				
 				local value = "|cFFA330C9" ..  row["value"] .. "|r"
 				
-				if (row["note"] ~= "") then
-					tooltip:AddLine("LootPrio: " .. row["role"])
-					tooltip:AddLine("DKP: ".. value)
+				tooltip:AddLine("LootPrio: " .. row["role"])
+				tooltip:AddLine("DKP: ".. value)
+				if row["note"] ~= "" then
 					tooltip:AddLine("Notiz: " .. row["note"])
-				else
-					tooltip:AddLine("LootPrio: " .. row["role"])
-					tooltip:AddLine("DKP: ".. value)
 				end
 				--tooltip:AddLine(row["name"])
 				--tooltip:AddLine(row["value"])
